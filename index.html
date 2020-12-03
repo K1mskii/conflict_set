@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conflict Set</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main class="main">
+      <div class="container">
+        <div class="conflict">
+          <div class="conflict__blocks">
+
+            <fieldset class="conflict__block rules">
+              <legend class="conflict__block-name">Правила</legend>
+              <ul class="conflict__items">
+                <li class="conflict__items-item">0. ЕСЛИ запустить бизнес ТО открыть салон</li>
+                <li class="conflict__items-item">1. ЕСЛИ запустить бизнес ТО взять кредит</li>
+                <li class="conflict__items-item">2. ЕСЛИ открыть салон ТО зарабатывать деньги</li>
+                <li class="conflict__items-item">3. ЕСЛИ запустить бизнес ТО нанять работников</li>
+                <li class="conflict__items-item">4. ЕСЛИ запустить бизнес ТО искать капитал</li>
+                <li class="conflict__items-item">5. ЕСЛИ запустить бизнес И освободить время ТО найти партнера</li>
+                <li class="conflict__items-item">6. ЕСЛИ запустить бизнес И найти партнера ТО обсудить план</li>
+                <li class="conflict__items-item">7. ЕСЛИ искать капитал ТО освободить время</li>
+                <li class="conflict__items-item">8. ЕСЛИ обсудить план ТО составить договор с партнером</li>
+                <li class="conflict__items-item">9. ЕСЛИ составить договор с партнером И найти помещение ТО стать бизнесменом</li>
+                <li class="conflict__items-item">10. ЕСЛИ запустить бизнес И найти партнера И составить договор с партнером ТО найти помещение</li>
+              </ul>
+            </fieldset>
+            <!-- /.rules -->
+
+            <fieldset class="conflict__block memory">
+              <legend class="conflict__block-name">Рабочая память</legend>
+              <ul class="conflict__items">
+                <li class="conflict__items-item">запустить бизнес</li>
+                <li class="conflict__items-item">искать капитал</li>
+                <li class="conflict__items-item">освободить время</li>
+                <li class="conflict__items-item">найти партнера</li>
+                <li class="conflict__items-item">обсудить план</li>
+                <li class="conflict__items-item">составить договор с партнером</li>
+                <li class="conflict__items-item">найти помещение</li>
+                <li class="conflict__items-item">стать бизнесменом</li>
+              </ul>
+            </fieldset>
+            <!-- /.memory -->
+
+          </div>
+          <!-- /.conflict__blocks -->
+
+          <a href="#" class="conflict__btn">Вывести</a>
+        </div>
+
+        </div>
+      </div>
+    </main>
+
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
